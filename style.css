@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.background{
+    background: url("image/shopping.png") no-repeat center center/cover;
+    filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    z-index: -1;
+}
+
+input{
+    outline: none;
+}
+
+.bilgi{
+    background-color: purple;
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 900;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
